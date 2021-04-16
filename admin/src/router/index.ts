@@ -1,14 +1,20 @@
 import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
 
+import Layout from '@/views/Layout/index'
 Vue.use(VueRouter)
 
 const routes: Array<RouteConfig> = [
-  // {
-  //   path: '/',
-  //   name: 'Home',
-  //   component: Home
-  // },
+  {
+    path: '/',
+    name: 'Home',
+    component: Layout
+  },
+  {
+    path: '/login',
+    name: 'Login',
+    component: resolve => require(['@/views/Login/index.vue'], resolve)
+  },
   // {
   //   path: '/about',
   //   name: 'About',
