@@ -3,9 +3,7 @@
     <Header />
     <el-container>
       <Slide />
-      <el-main>
-          <router-view></router-view>
-      </el-main>
+      <el-main>Main</el-main>
     </el-container>
   </el-container>
 </template>
@@ -21,5 +19,8 @@ export default {
 };
 </script>
 
-<style>
+<style lang="less" scoped>
+.el-header {
+  min-height: 60px !important;
+}
 </style>
