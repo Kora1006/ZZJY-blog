@@ -3,11 +3,11 @@
     <div class="wrapper-l">
       <img src="../../assets/logo.png" class="aside-logo" />
       <i
-        class="el-icon-s-fold"
+        class="icon-btn el-icon-s-fold"
         v-if="collapsed"
         @click="changeCollapsed(false)"
       ></i>
-      <i class="el-icon-s-unfold" v-else @click="changeCollapsed(true)"></i>
+      <i class="icon-btn el-icon-s-unfold" v-else @click="changeCollapsed(true)"></i>
     </div>
   </div>
 </template>
@@ -41,6 +41,9 @@ export default {
   .wrapper-l {
     display: flex;
     align-items: center;
+    .icon-btn {
+      font-size: 20px;
+    }
     .aside-logo {
       height: 50px;
       margin-right: 10px;

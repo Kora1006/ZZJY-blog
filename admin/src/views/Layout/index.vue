@@ -1,11 +1,11 @@
 <template>
-  <el-container>
+  <div>
     <Header />
     <el-container>
       <Slide />
       <el-main>Main</el-main>
     </el-container>
-  </el-container>
+  </div>
 </template>
 
 <script>
