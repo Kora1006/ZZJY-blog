@@ -1,5 +1,5 @@
 <template>
-  <el-aside>
+  <div>
     <el-menu
       default-active="2"
       class="el-menu-vertical-demo"
@@ -23,7 +23,7 @@
         </el-menu-item>
       </el-submenu>
     </el-menu>
-  </el-aside>
+  </div>
 </template>
 
 <script>

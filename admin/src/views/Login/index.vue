@@ -4,7 +4,7 @@
       <div class="form-content">
         <div class="form-title">
           <div class="logo">
-            <!-- <img src="../../assets/image/logo.png" /> -->
+            <img src="../../assets/logo.png" />
             <span>"Welcome!"</span>
           </div>
           <div class="title-tips">
